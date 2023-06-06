@@ -30,11 +30,11 @@ Do a more extensive data analysis in order to get more information about this da
 |hpo|GBM (Light gradient boosting) : num_boost_round: [lower=100, upper=500], num_leaves:[lower=6, upper=10], learning_rate:[lower=0.01, upper=0.3, log scale]|XGB (XGBoost): n_estimators : [lower=100, upper=500], max_depth : [lower=6, upper=10], eta(learning_rate) : [lower=0.01, upper=0.3, log scale]|NN (neural network) = num_epochs: 10,layers:([100], [1000], [200, 100], [300, 200, 100]),learning_rate:[lower=0.0001,upper=0.01],dropout_prob:[0.0, 0.5],activation_fun:[relu, tanh]|0.55740|
 
 ### Create a line plot showing the top model score for the three (or more) training runs during the project.
-![model_train_score.png](model_train_score.png)
+![model_train_score.png](img/model_train_score.png)
 
 ### Create a line plot showing the top kaggle score for the three (or more) prediction submissions during the project.
 
-![model_test_score.png](model_test_score.png)
+![model_test_score.png](img/model_test_score.png)
 
 ## Summary
 In summary, this project highlighted the significance of both feature engineering and hyperparameter optimization in the machine learning workflow. It demonstrated that it is an iterative process, where we alternate between extracting new features from the available data, performing exploratory data analysis, and trying different models with the new features. This iterative approach helps us gradually improve the model's performance by iteratively refining the features and tuning the hyperparameters until we achieve satisfactory validation and test errors.
