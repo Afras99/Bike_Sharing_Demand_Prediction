@@ -1,6 +1,6 @@
 # Predict Bike Sharing Demand with AutoGluon
 
-## Introduction to AWS Machine Learning Final Project
+## Introduction to AWS Machine Learning First Project
 
 ## Overview
 In this project, students will apply the knowledge and methods they learned in the Introduction to Machine Learning course to compete in a Kaggle competition using the AutoGluon library.
